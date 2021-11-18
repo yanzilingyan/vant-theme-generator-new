@@ -32,6 +32,9 @@ module.exports = {
   },
 };
 ```
+> src/theme/default.less
+View corresponding file contents.
+
 > script theme.js
 ```
 const path = require('path');
@@ -60,6 +63,8 @@ const options = {
     '@button-warning-background-color',
     '@button-warning-border-color',
     '@button-plain-background-color',
+    '@radio-checked-icon-color',
+    '@mainColor', //custom style
   ],
   customColorRegexArray: [/^fade\(.*\)$/],
 };
@@ -88,5 +93,7 @@ generateTheme(options)
 window.less.modifyVars({
   '@button-default-color': 'red',
   '@button-default-background-color': 'green',
+  '@radio-checked-icon-color': '#8C41FA',
+  '@mainColor': '#FA733E',
 });
 ```
