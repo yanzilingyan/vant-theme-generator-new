@@ -1,5 +1,5 @@
 ## 描述
-生成指定的 styles/less 文件，可用于在浏览器中动态更改主题。
+This script generates color specific styles/less file which you can use to change theme dynamically in browser.
 
 ## 安装
 ```
