@@ -25,7 +25,7 @@
   "scripts": {
     "test": "cd examples && npm run serve && cd ../"
   },
-  "devDependencies": {
+  "dependencies": {
     "glob": "^7.1.6",
     "hash.js": "^1.1.7",
     "less": "^3.12.2",
