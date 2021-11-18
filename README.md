@@ -1,3 +1,6 @@
+## 描述
+生成指定的 styles/less 文件，可用于在浏览器中动态更改主题。
+
 ## 安装
 ```
 npm i -D vant-theme-generator-new
